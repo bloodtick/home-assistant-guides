@@ -4,7 +4,7 @@ This guide extends the official [Home Assistant Amazon Alexa Smart Home Skill se
 
 Follow that guide to create the Alexa skill, AWS Lambda function, permissions, service endpoint, and Home Assistant integration. Apply the changes below to route account linking and Alexa commands through the Cloudflare token-and-cookie gateway.
 
-First complete the [Cloudflare token-and-cookie gateway guide](guides/cloudflare-token-cookie-gateway.md). That guide provides the Worker, secrets, hostname routes, WAF rule, and validation checks used here.
+First complete the [Cloudflare token-and-cookie gateway guide](cloudflare-token-cookie-gateway.md). That guide provides the Worker, secrets, hostname routes, WAF rule, and validation checks used here.
 
 ## What this adds
 
